@@ -2251,6 +2251,12 @@ img {
     text-align: center;
 }
 
+.heading-wrapper-2 {
+    padding-right: 15%;
+    padding-left: 15%;
+    text-align: center;
+}
+
 .footer-logo {
     margin-bottom: 10px;
     font-family: Lato, sans-serif;
