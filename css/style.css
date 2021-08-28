@@ -2393,6 +2393,15 @@ img {
     text-decoration: none;
 }
 
+.category {
+    color: #00d6b4;
+    display: inline-block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 @media (max-width: 991px) {
     .hero {
         min-height: 520px;
