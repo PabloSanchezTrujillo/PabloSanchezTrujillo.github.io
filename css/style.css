@@ -2257,6 +2257,13 @@ img {
     text-align: center;
 }
 
+.heading-wrapper-3 {
+    margin-top: 50px;
+    padding-right: 15%;
+    padding-left: 15%;
+    text-align: center;
+}
+
 .footer-logo {
     margin-bottom: 10px;
     font-family: Lato, sans-serif;
@@ -2268,7 +2275,7 @@ img {
 
 .profile-pic {
     display: block;
-    width: 90px;
+    width: 150px;
     margin-right: auto;
     margin-bottom: 31px;
     margin-left: auto;

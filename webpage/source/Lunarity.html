@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html data-wf-domain="template-versus.webflow.io" data-wf-page="56104c3b974bb07b3f4eef35" data-wf-site="560f27977849849d0e1fee5c">
+    <head>
+        <meta charset="utf-8">
+        <title>Lunarity work</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link href="/css/style.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+        <script type="text/javascript">
+            WebFont.load({
+                google: {
+                    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic", "Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic"]
+                }
+            });
+        </script>
+        <script src="https://daks2k3a4ib2z.cloudfront.net/0globals/modernizr-2.7.1.js" type="text/javascript"></script>
+        <link href="https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+        <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
+    </head>
+    <body>
+        <div class="hero project-page">
+            <div class="nav w-nav" data-animation="default" data-collapse="medium" data-contain="1" data-duration="400">
+                <div class="w-container">
+                    <a class="logo w-nav-brand" href="#">
+                        <div>Pablo Manuel Sánchez Trujillo's portfolio</div>
+                    </a>
+                    <nav class="nav-menu w-nav-menu" role="navigation">
+                        <a class="nav-link w-nav-link" href="/index.html">Portfolio</a>
+                        <a class="nav-link w-nav-link" href="about.html">About</a>
+                        <a class="nav-link w-nav-link" href="contact.html">Contact</a>
+                    </nav>
+                    <div class="menu-button w-nav-button">
+                        <div class="w-icon-nav-menu"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="heading-wrapper w-container">
+                <h1 class="main-heading">Lunarity</h1>
+                <img class="main-detail-image" width="400px" height="300px" src="/webpage/images/Lunarity-screenshot.png">
+            </div>
+        </div>
+        <div class="w-container">
+            <div class="project-body-copy w-richtext">
+                <h4 class="category">Genre:</h4>
+                <p class="inline-block">&nbsp;Action roguelike</p>
+                </br>
+                <h4 class="category">Engine:</h4> 
+                <p class="inline-block">&nbsp;Unity</p>
+                </br>
+                <h4 class="category">Summary:</h4>
+                <p class="inline-block">Roguelike type game where the player tries to reach the highest point of the forest. During the adventure players 
+                    will encounter differnt enemies who will try to block their way up. Players will have different abilities at their disposal to fight these enemies.
+                </p>
+
+                <div class="heading-wrapper-3 w-container">
+                    <a class="button w-button" href="/webpage/bin/Lunarity.rar" download>Download the game</a>
+                </div>
+
+                </br></br></br>
+
+                <p>The version of the game you can download above it's not the final version. It's the first playable prototype of the game.</p>
+                <p>The game's a roguelike action game where the objective is to climb up your way to get to the highest point of the forest which is also the 
+                    closest to the moon. Along the way, the player will encounter some enemies who will try to prevent it to reach the top. For these occasions, 
+                    the player will have a set of abilities to defeat these enemies.</p>
+                <p>Players have an ability tree where they can choose from different abilities to equip. This tree has three different routes that the player 
+                    can freely mix. One route, which is the more aggressive style another one which is the more agile and fast style, and the third one which 
+                    is a mix of both. The tree doesn't only give the player some abilities, it will change the player's appearance depending on the branch he 
+                    has chosen. In more advanced versions of the game, this will have some repercussions in-game. Depending on your appearance you will get one 
+                    endgame or another, and NPCs will treat you differently offering you several paths to follow.</p>
+                <p>Every level is procedurally generated. The algorithm used to create the levels is based on the Spelunky one. The levels are composed of 
+                    smaller rooms that are connected to each other. These connections always ensure that there is a possible path to get to the next floor. 
+                    The rooms have different obstacles apart from the enemies such as thorns, veins, moss... that give the platforming a bit more variety of 
+                    movement. The rooms also have a main path, which is the path that connects and leads to the end of the level, and some of them have a 
+                    secondary path to encourage exploration.</p>
+                </br>
+
+                <h3>My contribution to this project</h3>
+                <p>For this project, we were a team of 4. I was responsible for programming the level generator and the AI for the enemies.</p>
+                <p>The level generator, as I mentioned earlier, is based on the Spelunky one. We did it this way because we wanted it to have some control over 
+                    the design of the rooms. The rooms are hand-designed and it is the algorithm that takes care of connecting them and creating the level. 
+                    These rooms have a path with a particular number of exits (one on top, one on the right, three exits, none...). The first thing the 
+                    algorithm does is placing the enter and the exit of the level. Then the algorithm creates the main path connecting the rooms, considering 
+                    the number of exits of each room and where they are. Once the main path is created, the algorithm completes the rest of the level taking into 
+                    account the accessibility of all rooms. Using this method, we can create infinite achievable levels with paths for exploration.</p>
+                <p>For the enemies' AI, I used a simple state machine with a wandering, a look for the player, and an attack state. Because we really didn't 
+                    have a complex combat system we decided to keep them simple, only to be an obstacle rather than a challenge.</p>
+                </br>
+
+                <h3>Gameplay trailer</h3>
+                <video src="/webpage/videos/Lunarity_Trailer.mp4" width="700" height="400" controls></video>
+            </div>
+        </div>
+        <div class="w-container">
+            <h3 class="section-title">All My Work</h3>
+            <div class="w-dyn-list">
+                <div class="w-dyn-items w-row">
+                    <div class="w-col w-col-4 w-dyn-item">
+                        <a class="w-inline-block" href="KitchenRush.html">
+                            <img class="project-image" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" src="/webpage/images/kitchen-rush-icon.png">
+                        </a>
+                    </div>
+                    <div class="w-col w-col-4 w-dyn-item">
+                        <a class="w-inline-block" href="IntelligentBehavioursPackage.html">
+                            <img class="project-image" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" src="/webpage/images/robot-play.jpg">
+                        </a>
+                    </div>
+                    <div class="w-col w-col-4 w-dyn-item">
+                        <a class="w-inline-block" href="Zork.html">
+                            <img class="project-image" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" src="/webpage/images/Zork-icon.jpg">
+                        </a>
+                    </div>
+                    <div class="w-col w-col-4 w-dyn-item">
+                        <a class="w-inline-block" href="ChildOfMyEyes.html">
+                            <img class="project-image" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" src="/webpage/images/Child-of-my-eyes-icon.png">
+                        </a>
+                    </div>
+                    <div class="w-col w-col-4 w-dyn-item">
+                        <a class="w-inline-block" href="AW4llOut.html">
+                            <img class="project-image" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" src="/webpage/images/AW4llOut_icon.png">
+                        </a>
+                    </div>
+                    <div class="w-col w-col-4 w-dyn-item">
+                        <a class="w-inline-block" href="Lunarity.html">
+                            <img class="project-image" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" src="/webpage/images/Lunarity-icon.png">
+                        </a>
+                    </div>
+                    <div class="w-col w-col-4 w-dyn-item">
+                        <a class="w-inline-block" href="WFCPrototypingTool.html">
+                            <img class="project-image" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" src="/webpage/images/WFCPrototypingTool_icon.png">
+                        </a>
+                    </div>
+                    <!--
+                    <div class="w-col w-col-4 w-dyn-item">
+                        <a class="w-inline-block" href="/projects/photo-app">
+                            <img class="project-image" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" src="https://daks2k3a4ib2z.cloudfront.net/56104995fd4f22cf7e335ea0/56148bf08924f1f620d590c2_astrav1.jpg" srcset="https://daks2k3a4ib2z.cloudfront.net/56104995fd4f22cf7e335ea0/56148bf08924f1f620d590c2_astrav1-p-500x.jpeg 500w, https://daks2k3a4ib2z.cloudfront.net/56104995fd4f22cf7e335ea0/56148bf08924f1f620d590c2_astrav1-p-800x.jpeg 800w, https://daks2k3a4ib2z.cloudfront.net/56104995fd4f22cf7e335ea0/56148bf08924f1f620d590c2_astrav1.jpg 800w">
+                        </a>
+                    </div>
+                    <div class="w-col w-col-4 w-dyn-item">
+                        <a class="w-inline-block" href="/projects/flat-design">
+                            <img class="project-image" src="https://daks2k3a4ib2z.cloudfront.net/56104995fd4f22cf7e335ea0/56148c2e404247a362fcde2a_neighborhood.jpg">
+                        </a>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="w-container">
+                <div class="footer-logo">Contact</div>
+                <div><a href="mailto:pm.sancheztr@gmail.com">pm.sancheztr@gmail.com</a> | <a href="https://twitter.com/PabloSanchezDev" target="_blank">@PabloSanchezDev</a></div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+        <!--<script src="https://daks2k3a4ib2z.cloudfront.net/560f27977849849d0e1fee5c/js/webflow.57f4ffb2a.js" type="text/javascript"></script>-->
+        <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+    </body>
+</html>
