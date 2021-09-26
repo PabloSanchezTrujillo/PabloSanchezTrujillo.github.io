@@ -2026,8 +2026,8 @@ img {
 
 .hero.about-page {
     min-height: 340px;
-    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .57), #222), url("http://uploads.webflow.com/560f27977849849d0e1fee5c/5614b769e3d14ab63aa7a827_photo-1441716844725-09cedc13a4e7.jpg");
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, .57), #222), url("http://uploads.webflow.com/560f27977849849d0e1fee5c/5614b769e3d14ab63aa7a827_photo-1441716844725-09cedc13a4e7.jpg");
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .57), #222), url("/webpage/images/placeholder.jpg");
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .57), #222), url("/webpage/images/placeholder.jpg");
     background-size: auto, cover;
 }
 
@@ -2333,6 +2333,17 @@ img {
     font-weight: 300;
 }
 
+.img-info {
+    position: absolute;
+    top: 100;
+    left: 100;
+    right: 100;
+    padding-top: 100px;
+    z-index: -1;
+    margin: 10;
+    opacity: 1;
+}
+
 .project-image {
     margin-bottom: 22px;
     border-radius: 3px;
@@ -2341,7 +2352,7 @@ img {
 }
 
 .project-image:hover {
-    opacity: 0.69;
+    opacity: 0.1;
 }
 
 .super-heading {
